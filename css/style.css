@@ -35,7 +35,7 @@ img {
 /* ======== common css end ======== */
 
 .menu_part {
-      padding: 0 40px;
+      padding: 10px 40px;
       background-attachment: fixed;
       background: #FFFFFF;
 
@@ -107,8 +107,8 @@ img {
       margin: 24px 0;
 }
 
-.banner_text button {
-      padding: 20px 25px;
+.btn_primary {
+      padding: 18px 30px;
       background: #fff;
       border-radius: 5px;
       border: 0;
@@ -197,9 +197,31 @@ img {
       font-size: 22px;
       font-weight: 500;
 }
+
 /* =============== menu part end ============ */
+.positive_mind {
+      margin: 120px 0;
+      padding: 65px 64px;
+      background: linear-gradient(to right, #005FAC, #005FAC00), url("../images/watch.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+}
+
+.positive_mind h2 {
+      width: 459px;
+      color: #fff;
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 24px;
+}
+
+/* =============== positive mind part end ============ */
 
 
-
+/* =============== menu part end ============ */
+/* =============== menu part end ============ */
+/* =============== menu part end ============ */
 /* =============== menu part end ============ */
 /* =============== menu part end ============ */
