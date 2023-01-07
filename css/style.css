@@ -25,8 +25,7 @@ ul,
 li,
 p,
 a,
-div,
-img {
+div {
       margin: 0;
       padding: 0;
 }
@@ -37,9 +36,7 @@ img {
 
 .menu_part {
       padding: 10px 40px;
-      background-attachment: fixed;
       background: #FFFFFF;
-
 }
 
 .main_menu {
@@ -79,9 +76,9 @@ img {
 .banner {
       background: url("../images/banner/banner3.png");
       background-position: center;
-      background-size: cover;
+      background-size: contain;
       background-repeat: no-repeat;
-      padding: 290px 0;
+      padding: 150px 0;
 
 }
 
@@ -130,6 +127,12 @@ img {
 
 .previous_year_photo {
       width: 569px;
+}
+
+.previous_year_photo img {
+      width: 569px;
+      height: 750px;
+      border-radius: 5px;
 }
 
 .previous_year_text {
@@ -200,7 +203,7 @@ img {
       font-weight: 500;
 }
 
-/* =============== menu part end ============ */
+/* =============== my plan part end ============ */
 .positive_mind {
       margin-top: 120px;
       padding: 65px 64px;
@@ -382,8 +385,6 @@ footer {
       color: white;
       font-size: 18px;
       font-weight: 400;
-
-
 }
 
 .subscribe_form .submit_btn {
