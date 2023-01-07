@@ -287,8 +287,6 @@ footer {
       background: #151414;
 }
 
-/* =============== footer part end ============ */
-
 .footer_inner {
       display: flex;
 }
@@ -364,6 +362,7 @@ footer {
 .footer_subscribe {
       width: 325px;
 }
+
 
 .subscribe_title {
       color: #fff;
