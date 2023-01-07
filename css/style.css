@@ -2,6 +2,7 @@ body {
       margin: 0;
       padding: 0;
       font-family: 'Work Sans', sans-serif;
+      box-sizing: border-box;
 }
 
 ul,
@@ -98,6 +99,7 @@ img {
       color: #fff;
       font-size: 65px;
       font-weight: 700;
+      text-transform: capitalize;
 }
 
 .banner_text p {
@@ -200,7 +202,7 @@ img {
 
 /* =============== menu part end ============ */
 .positive_mind {
-      margin: 120px 0;
+      margin-top: 120px;
       padding: 65px 64px;
       background: linear-gradient(to right, #005FAC, #005FAC00), url("../images/watch.png");
       background-position: center;
@@ -219,12 +221,11 @@ img {
 
 /* =============== positive mind part end ============ */
 .contact_part {
-      padding: 30px 0 90px;
-      background: url(../images/person/cover2.jpg) center no-repeat;
+      margin-top: 120px;
+      padding: 30px 0 0;
       background-size: cover;
       background-attachment: fixed;
       text-align: center;
-      margin-bottom: 0;
 
 }
 
@@ -255,20 +256,18 @@ img {
 
 }
 
-.contact_form button {
+.contact_form .send_btn {
+      width: 100%;
       padding: 10px 40px;
       text-align: center;
       border: 0;
       background: linear-gradient(to right, #0060AA, #01A1DB);
       border-radius: 5px;
-      cursor: pointer;
-
-}
-
-.contact_form button {
       color: #fff;
       font-size: 18px;
       font-weight: 400;
+      cursor: pointer;
+      margin-top: 20px;
 
 }
 
@@ -279,9 +278,125 @@ img {
 }
 
 /* =============== contact part end ============ */
+footer {
+      margin-top: 100px;
+      padding: 130px 0;
+      background: #151414;
+}
+
+/* =============== footer part end ============ */
+
+.footer_inner {
+      display: flex;
+}
+
+.footer_text .logo {
+      font-family: 'Zen Tokyo Zoo', cursive;
+      color: #fff;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 16px;
+}
+
+.footer_inner {
+      display: flex;
+      justify-content: space-between
+}
+
+.footer_text {
+      width: 485px;
+}
+
+.footer_des {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 16px;
+      line-height: 139%;
+}
+
+.footer_email {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 16px;
+}
+
+.footer_phone {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 16px;
+}
+
+.footer_social {
+      display: flex;
+      column-gap: 16px;
+}
+
+.footer_social i {
+      width: 47px;
+      height: 47px;
+      line-height: 47px;
+      border-radius: 50%;
+      background: white;
+      text-align: center;
+      font-size: 24px;
+}
+
+.footer_social .fb {
+      color: #006AFF;
+}
+
+.footer_social .twit {
+      color: #006AFF;
+
+}
+
+.footer_social .ytb {
+      color: #FF0000;
+
+}
+
+.footer_subscribe {
+      width: 325px;
+}
+
+.subscribe_title {
+      color: #fff;
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 16px;
+}
+
+.subscribe_form input {
+      padding: 18px;
+      width: 100%;
+      border-radius: 8px;
+      background: transparent;
+      border: 1px solid white;
+      margin-bottom: 16px;
+}
+
+.subscribe_form ::placeholder {
+      color: white;
+      font-size: 18px;
+      font-weight: 400;
 
 
-/* =============== menu part end ============ */
-/* =============== menu part end ============ */
-/* =============== menu part end ============ */
-/* =============== menu part end ============ */
+}
+
+.subscribe_form .submit_btn {
+      width: 170px;
+      padding: 20px 36px;
+      background: #005FAC;
+      color: #fff;
+      border-radius: 8px;
+      font-size: 20px;
+      font-weight: 600;
+      display: block;
+      border: 0;
+
+}
+
+/* =============== footer part end ============ */
